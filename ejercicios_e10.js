@@ -43,7 +43,7 @@ for (let i = 0; i < numPartidos; i++){
   // RESULTADO DEL PARTIDO
   console.log(`Resultado del partido ${p.juego}: 
   Los Toros ${p.LosToros} - San Fernando ${p.SanFernando}`);
-}
+};
 
 
 
@@ -52,9 +52,7 @@ partidos.forEach ((partido) => {
    // RESULTADO DEL PARTIDO
   console.log(`Resultado del partido ${p.juego}: 
   Los Toros ${p.LosToros} - San Fernando ${p.SanFernando}`);
-})
-
-
+});
 
 
 
